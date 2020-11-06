@@ -11,7 +11,7 @@ package parciali_tema2_concurrente;
  */
 public class EspecialistaControl implements Runnable {
 
-    private SalaEspera sala;
+    private final SalaEspera sala;
 
     public EspecialistaControl(SalaEspera s) {
         this.sala = s;
